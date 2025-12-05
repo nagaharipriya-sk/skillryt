@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .red{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid rebeccapurple;
+    background-color:red ;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color:green ;
+} */
+.btn{
+    background-color: rgb(21, 2, 2);
+    color: rgb(247, 247, 250);
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: all;
+    padding-left: 60px;
+}
+.red p:nth-child(1){
+    color:rgb(198, 28, 127);
+}
+/* h1::after{
+    content: "rrrjj";
+} */
+h1::selection{
+    color:pink;
+}
+
+.nav-container{
+    width: 100vw;
+    display: inline-block;
+    background-color: pink;
+    color: black;
+    padding: 10px 90px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.nav-container > div{
+    display: inline-block;
+
+}
+.nav-links{
+    display: inline-block;
+    margin-left: 70%;
+    /* width: 80px; */
+}
+.nav-list> li{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    height:200vh;
+}
+/* div,p{
+    border:1px solid pink;
+} */
+
+/* .spn{
+    font-size: medium;
+    font-weight: bold;
+    /* padding-left:50px; */
+    /* margin-left: 50px;
+    } */

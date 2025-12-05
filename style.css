@@ -1,0 +1,60 @@
+/* 02-12-2025 Tuesday */
+/* p{ */
+    /* color: blueviolet; */
+/* } */
+
+
+/*
+*{
+    color:aquamarine;
+}*/
+
+/* .one{ */
+    /* background-color: blue; */
+/* } */
+
+/* #myid{ */
+    /* font-size: 80px; */
+/* } */
+
+h3,p{
+    /* text-align: justify; */
+    /* text-align-last: center;  */
+
+    /* text-decoration-color: crimson;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: dotted; */
+
+    /* text-decoration: underline aqua dotted 3px; */
+
+    /* text-transform:capitalize;
+    text-indent:20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 32px; */
+
+    /* white-space: nowrap; */
+    /* white-space: wrap; */
+
+    text-shadow: 3px 4px 8px pink, 3px 4px 8px blue;
+
+
+    /* font-style: oblique; */
+    /*color: aquamarine;*/
+    /* color:#ff0022; */
+    /* color:rgb(220, 96, 170); */
+    /* color:rgba(220, 96, 170);   */
+}
+body{
+    /* background-color: bisque; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg70iIi9k9ULJX-lxnhHt6ekuA9-erVl1Y7Q&s"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 60% 50%; max value 100% */
+    /* background-attachment: scroll;Scrolling option */
+    /* background-attachment: fixed;Fixed */
+    /* background-size: cover;It cover the image to whole pages */
+    /* background-image: linear-gradient(to left bottom ,lightblue,rgb(121, 192, 131),green,rgb(216, 143, 143)) we can give angle like 180deg to change position */
+    /* background-image: radial-gradient(circle,pink,lightblue,orange,red); */
+    background-image: conic-gradient(fuchsia,coral,gold);
+}

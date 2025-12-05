@@ -1,0 +1,163 @@
+<!-- 24-11-2025 Monday -->
+<html>
+    <head>
+        <title>Sample HTML Page</title>
+        <!-- Mobile responsive syntax -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- external CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- internal CSS -->
+        <!--<style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                margin: 20px;
+            }
+            h1{
+                text-align: center;
+            }
+
+            table{
+                width: 100;
+            }
+
+            th,td{
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th{
+                background-color: #f2f2f2;
+            }
+        </style -->
+</head>
+
+
+    <head>
+        <title>Sample HTML Page</title>
+    </head>
+
+    <body>
+       <!-- CSS -->
+         <!-- inline css -->
+        <h1 style ="background-color: rgb(0, 255, 187)l; color:blueviolet">This is Test page. Heading (Larger text)</h1>
+        <h6>Heading 6 (Smaller Text)</h6>
+        <p>Represent the paragraph</p>
+
+        <!-- Comment -->
+         <!-- list -->
+          <!-- unordered list -->
+        <ul> 
+            <li> Item 1 </li>
+            <li> Item 2</li>
+        </ul>
+
+        <!-- Ordered list -->
+         <ol>
+            <li> First</li>
+            <li> Second</li>
+         </ol>
+         <ol type="I"> </ol>
+
+         <!-- Descriptive list -->
+          <dl>
+            <dt> Term 1</dt>
+            <dd>Descriptive for Term 1</dd>
+          </dl>
+
+          <!-- Image tag -->
+           <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" alt="Sample image of HTML">
+
+           <!-- Link tag -->
+            <a href="https://www.google.com" target="_blank">Google</a>
+
+            <!-- Div tag (Division tag) -->
+             <div>
+                <P> this is paragraph inside a div </P>
+             </div>
+
+             <!-- Div tag for Class-->
+             <div class="conatiner">
+                <P> this is paragraph inside a div </P>
+             </div>
+
+             <!-- div tag for ID  -->
+              <div id="unique-section">
+                <h2>Unique section</h2>
+                <p>This section has a Unique ID</p>
+              </div>
+             <!-- nav tag -- for navigation "# if for ID refernce" -->
+              <nav class="navbar"> 
+                <a href="#home"> Home</a> |
+                <a href="#about">About</a> |
+                <a href="#Contact">Contact</a>
+              </nav>
+
+              <!-- footer -->
+               <footer>
+                <p>&copy; 2025 Sample HTML page</p>
+               </footer>
+
+               <!-- Tables -->
+                <table border="1" cellpadding="5" cellspacing="2">
+                    <tr>
+                        <th> Header 1</th>
+                        <th> Header 2</th>
+                        <th> Header 3</th>
+                    </tr>
+                    <tr>
+                        <td>row 1, cell 1</td>
+                        <td>row 1, cell 2</td>
+                        <td>row 1, cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>row 2, cell 1</td>
+                        <td>row 2, cell 2</td>
+                        <td>row 2, cell 3</td>
+                    </tr>
+                </table>
+
+        <!-- iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.4010038084134!2d76.99462667480955!3d11.083461689084594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f792ec6576e7%3A0xf5004dde7820f925!2sKgisl%20Campus%2C%20Kg%20Campus%2C%20365%2C%20Thudiyalur%20Rd%2C%20Saravanampatti%2C%20Coimbatore%2C%20Tamil%20Nadu%20641035!5e0!3m2!1sen!2sin!4v1763714726151!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+        <!-- forms -->
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <Button type="submit"> Submit button </Button>
+        
+        <!-- Types of input -->
+         <input type="reset" value="reset">
+         <input type="button" value="Click me" onclick="alert('Button Clicked!')">
+         <input type="checkbox" id="Subscribe" name="Subscribe" value="Yes">
+         <label for="Subscribe"> Subscribe to news letter</label><br>
+         <input type="radio" id="Male" name="Gender" value="Male">
+         <label for="Male">Male</label><br><br>
+         <input type="radio" id="Female" name="Gender" value="Female">
+         <label for="Female">Female</label><br><br>
+         <label for="Country">Country</label><br>
+         <select id="Country" name="Country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="India">India</option>
+            <Option value="UK">UK</Option>
+         </select><br><br>
+         <label for="message">Message</label><br>
+         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+         <input type="file" id="file" name="file"><br><br>
+         <input type="hidden" id="UserId" name="UserId" value="123456789">
+         <input type="date" id="DOB" name="DOB"><br><br>
+         <input type="color" id="Favcolor" name="Favcolor" value="#ff0000"><br><br>
+         <input type="range" id="volume" name="volume" min="0" max="100"><br><br>
+         <input type="tel" id="phone" name="phone"><br><br>
+         <input type="url" id="Website" name="phone"><br><br>
+         <input type="search" id="Search" name="search"><br><br>
+         <input type="Time" id="Appt" name="Appt"><br><br>
+         <input type="number" id="Quantity" name="Quantity" min="1" max="20"><br><br>
+         <input type="Password" id="Password" name="Password"><br><br>
+        </form>
+
+    </body>
+</html>

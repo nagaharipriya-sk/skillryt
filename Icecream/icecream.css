@@ -1,0 +1,150 @@
+/*02-12-2025 Tuesday */
+body {
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #0c0101;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  text-decoration: solid;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #533267;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/* img {
+  margin-top: 15px;
+  border-radius: 12px;
+} */
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+}
+
+th {
+  background-color: #c697be;
+  color: black;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+th, td {
+  border: 1px solid #444;
+}
+
+
+details {
+  margin-bottom: 30px;
+}
+
+summary {
+  font-weight: bold;
+  color: #100102;
+}
+
+details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.forms {
+  background-color: #fff1f5;
+  width: 70%;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.forms fieldset {
+  border: 2px solid #e63946;
+  border-radius: 12px;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+.forms legend {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e63946;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.forms label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.forms input,
+.forms select,
+.forms textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.forms textarea {
+  resize: none;
+  height: 80px;
+}
+
+.forms select {
+  background-color: #f8f9fa;
+}
+
+.forms input[type="submit"] {
+  background-color: #e63946;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  width: 40%;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.forms input[type="submit"]:hover {
+  background-color: #b22234;
+  transform: scale(1.05);
+}
+
+.forms input::placeholder,
+.forms textarea::placeholder {
+  color: #999;
+}
+/*footer*/
+h3 {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+}
+
+hr {
+  width: 80%;
+}
